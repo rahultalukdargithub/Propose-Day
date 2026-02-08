@@ -149,7 +149,7 @@ def autoplay_audio(file_path: str):
     )
 if st.session_state.page == 1:
 
-    st.markdown("<div class='big-title'>Ei Ri❤️</div>", unsafe_allow_html=True)
+    st.markdown("<div class='big-title'>Ei Ri ❤️</div>", unsafe_allow_html=True)
     st.markdown("<div class='text'>I made something just for you...</div>", unsafe_allow_html=True)
 
     # Hidden Streamlit trigger button
@@ -415,5 +415,6 @@ elif st.session_state.page == 3:
 
 
         
+
 
 
