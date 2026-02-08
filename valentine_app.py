@@ -195,7 +195,7 @@ if st.session_state.page == 1:
 
     # When hidden button is triggered
     if trigger:
-        st.session_state.page = 3
+        st.session_state.page = 2
         st.rerun()
 
     st.stop()
@@ -406,3 +406,4 @@ elif st.session_state.page == 3:
 
 
         
+
