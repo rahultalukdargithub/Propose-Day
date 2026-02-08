@@ -311,16 +311,26 @@ elif st.session_state.page == 3:
     
     st.markdown("<div class='big-title'>Would You Be My Valentine?💖</div>", unsafe_allow_html=True)
     st.write("")
-    t=0
     st.markdown("<div class='btn-center'>", unsafe_allow_html=True)
     if st.button("YES 😍", key="yes_btn"):
-        t=1
+        # t=1
         st.session_state.yes_clicked = True
         st.balloons()
-        st.markdown(
-        "<div style='text-align:center;font-size:22px;color:#b71c1c;'>Ri!!!!🥺 You just made me the happiest person alive ❤️</div>",
-        unsafe_allow_html=True
+        type_text("You know what?🙃")
+        type_text("I was hoping you'd say that!🙈")
+        type_text("🥰 You just made me the happiest person alive ❤️")
+        type_text("So, I want to say that....")
+        type_text("👉🏻👈🏻")
+        autoplay_audio("lov_Song.mp3")
+        st.write("")
+
+    # 💕 SHOW GIF
+        st.image(
+            "source.gif",   # put your gif file in project folder
+            width=700
+
         )
+        
     st.markdown("</div>", unsafe_allow_html=True)
         
 
@@ -401,9 +411,9 @@ elif st.session_state.page == 3:
         btn.addEventListener("click", e => {{ e.preventDefault(); moveButton(); }});
         </script>
         """, height=400)
-    if t==1:
-        autoplay_audio("lov_Song.mp3")    
+   
 
 
         
+
 
