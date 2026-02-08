@@ -318,7 +318,7 @@ elif st.session_state.page == 3:
         st.session_state.yes_clicked = True
         st.balloons()
         st.markdown(
-        "<div style='text-align:center;font-size:22px;color:#b71c1c;'>Ri You just made me the happiest person alive ❤️</div>",
+        "<div style='text-align:center;font-size:22px;color:#b71c1c;'>Ri!!!!🥺 You just made me the happiest person alive ❤️</div>",
         unsafe_allow_html=True
         )
     st.markdown("</div>", unsafe_allow_html=True)
@@ -403,5 +403,6 @@ elif st.session_state.page == 3:
         """, height=400)
     if t==1:
         autoplay_audio("lov_Song.mp3")    
+
 
         
